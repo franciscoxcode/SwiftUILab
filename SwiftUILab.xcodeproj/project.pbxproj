@@ -32,11 +32,11 @@
 		EA3A0BD62E0B6C52006E1A51 = {
 			isa = PBXGroup;
 			children = (
-				EA3A0BF32E0B6DD3006E1A51 /* Resources */,
-				EA3A0BF22E0B6DCB006E1A51 /* ViewModels */,
-				EA3A0BF12E0B6DC0006E1A51 /* Views */,
-				EA3A0BF02E0B6DB5006E1A51 /* Models */,
 				EA3A0BE12E0B6C52006E1A51 /* SwiftUILab */,
+				EA3A0BF02E0B6DB5006E1A51 /* Models */,
+				EA3A0BF12E0B6DC0006E1A51 /* Views */,
+				EA3A0BF22E0B6DCB006E1A51 /* ViewModels */,
+				EA3A0BF32E0B6DD3006E1A51 /* Resources */,
 				EA3A0BE02E0B6C52006E1A51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +59,9 @@
 		EA3A0BF12E0B6DC0006E1A51 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EA3A0BF62E0B6DEF006E1A51 /* Accordion */,
-				EA3A0BF52E0B6DE9006E1A51 /* Shared */,
 				EA3A0BF42E0B6DE1006E1A51 /* Components */,
+				EA3A0BF52E0B6DE9006E1A51 /* Shared */,
+				EA3A0BF62E0B6DEF006E1A51 /* Accordion */,
 			);
 			path = Views;
 			sourceTree = "<group>";
