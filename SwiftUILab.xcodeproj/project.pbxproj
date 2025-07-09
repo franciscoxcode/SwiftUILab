@@ -6,7 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EA064F3B2E1F0041009CC8E7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA064F3A2E1EFD8D009CC8E7 /* HomeView.swift */; };
+		EA064F3F2E1F022A009CC8E7 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA064F3C2E1F01C4009CC8E7 /* Component.swift */; };
+		EA064F412E1F027A009CC8E7 /* ComponentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA064F402E1F026B009CC8E7 /* ComponentCardView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		EA064F3A2E1EFD8D009CC8E7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EA064F3C2E1F01C4009CC8E7 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		EA064F402E1F026B009CC8E7 /* ComponentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCardView.swift; sourceTree = "<group>"; };
 		EA3A0BDF2E0B6C52006E1A51 /* SwiftUILab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,6 +61,7 @@
 		EA3A0BF02E0B6DB5006E1A51 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EA064F3C2E1F01C4009CC8E7 /* Component.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -59,6 +69,8 @@
 		EA3A0BF12E0B6DC0006E1A51 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EA064F402E1F026B009CC8E7 /* ComponentCardView.swift */,
+				EA064F3A2E1EFD8D009CC8E7 /* HomeView.swift */,
 				EA3A0BF42E0B6DE1006E1A51 /* Components */,
 				EA3A0BF52E0B6DE9006E1A51 /* Shared */,
 				EA3A0BF62E0B6DEF006E1A51 /* Accordion */,
@@ -175,6 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA064F3B2E1F0041009CC8E7 /* HomeView.swift in Sources */,
+				EA064F412E1F027A009CC8E7 /* ComponentCardView.swift in Sources */,
+				EA064F3F2E1F022A009CC8E7 /* Component.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
