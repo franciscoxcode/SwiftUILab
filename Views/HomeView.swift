@@ -9,10 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     
-    let components = [
-        Component(name: "Text", destination: AnyView(TextComponentView())),
-        Component(name: "Button", destination: AnyView(ButtonComponentView()))
+    let components: [Component] = [
+        Component(name: "Text", destination: {
+            let c = Component(name: "Text", destination: { AnyView(EmptyView()) })
+            return AnyView(TextComponentView(component: c))
+        }),
+        Component(name: "Button", destination: {
+            let c = Component(name: "Button", destination: { AnyView(EmptyView()) })
+            return AnyView(ButtonComponentView(component: c))
+        })
     ]
+
 
     var body: some View {
         NavigationStack {

@@ -12,6 +12,7 @@
 		EA064F412E1F027A009CC8E7 /* ComponentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA064F402E1F026B009CC8E7 /* ComponentCardView.swift */; };
 		EA064F432E1F069C009CC8E7 /* TextComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA064F422E1F0692009CC8E7 /* TextComponentView.swift */; };
 		EA064F452E1F06B7009CC8E7 /* ButtonComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA064F442E1F06B1009CC8E7 /* ButtonComponentView.swift */; };
+		EA064F472E1F161D009CC8E7 /* ComponentTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA064F462E1F1617009CC8E7 /* ComponentTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EA064F402E1F026B009CC8E7 /* ComponentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCardView.swift; sourceTree = "<group>"; };
 		EA064F422E1F0692009CC8E7 /* TextComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponentView.swift; sourceTree = "<group>"; };
 		EA064F442E1F06B1009CC8E7 /* ButtonComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponentView.swift; sourceTree = "<group>"; };
+		EA064F462E1F1617009CC8E7 /* ComponentTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentTitleView.swift; sourceTree = "<group>"; };
 		EA3A0BDF2E0B6C52006E1A51 /* SwiftUILab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 		EA3A0BF52E0B6DE9006E1A51 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				EA064F462E1F1617009CC8E7 /* ComponentTitleView.swift */,
 				EA064F402E1F026B009CC8E7 /* ComponentCardView.swift */,
 			);
 			path = Shared;
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA064F3B2E1F0041009CC8E7 /* HomeView.swift in Sources */,
+				EA064F472E1F161D009CC8E7 /* ComponentTitleView.swift in Sources */,
 				EA064F412E1F027A009CC8E7 /* ComponentCardView.swift in Sources */,
 				EA064F3F2E1F022A009CC8E7 /* Component.swift in Sources */,
 				EA064F452E1F06B7009CC8E7 /* ButtonComponentView.swift in Sources */,

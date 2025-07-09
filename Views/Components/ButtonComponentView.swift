@@ -7,8 +7,10 @@
 import SwiftUI
 
 struct ButtonComponentView: View {
+    let component: Component
+    
     var body: some View {
-        Text("Button Component Playground")
+        ComponentTitleView(title: component.name)
     }
 }
 

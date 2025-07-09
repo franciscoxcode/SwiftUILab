@@ -10,6 +10,5 @@ import SwiftUI
 struct Component: Identifiable {
     let id = UUID()
     let name: String
-    let destination: AnyView
+    let destination: () -> AnyView
 }
-
